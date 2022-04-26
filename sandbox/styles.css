@@ -1,0 +1,73 @@
+header {
+  background-color: blue;
+}
+
+section {
+  height: 100px;
+  background-color: orange;
+}
+
+.text-box {
+  color: white;
+}
+
+p {
+  color: purple;
+}
+
+#bolder {
+  font-weight: 800;
+}
+
+#div-display {
+  height: 150px;
+  position: relative;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: visible;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+}
+
+#relative {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: azure;
+  z-index: 1;
+}
+
+#fixed {
+  position: absolute;
+  top: 0px;
+  right: 40vw;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: red;
+  position: fixed;
+  bottom: 0px;
+}
+
+#content {
+  padding: 10px;
+  border: 5px solid grey;
+  margin: 5px;
+  box-sizing: content-box;
+}
+
+#border {
+  padding: 10px;
+  border: 5px solid grey;
+  margin: 5px;
+  box-sizing: border-box;
+}
